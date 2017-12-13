@@ -1,4 +1,7 @@
 $(document).ready(function(){
+ 
+ $(".fades img").hide(0).delay(200).slideToggle(1000);
+ $(".fades span").hide(0).delay(200).slideToggle(1000);
 
   $("#primero").show();
   $("#segundo").hide();
@@ -27,3 +30,5 @@ $(document).ready(function(){
   })
 
 })
+
+function splash(param) { var time = param; setTimeout(function () { $('#splashscreen').hide(); }, time); } 
