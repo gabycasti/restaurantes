@@ -31,4 +31,14 @@ $(document).ready(function(){
 
 })
 
+
+/* mouseover  */
+$('.contenedor').mouseover(function () {
+    $('.sailor-overlay').show();
+}).mouseout(function () {
+    $('.sailor-overlay').hide();
+});
+
+
+/* función splash  */
 function splash(param) { var time = param; setTimeout(function () { $('#splashscreen').hide(); }, time); } 
